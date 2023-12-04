@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  background-color: #e9ecef;
+}
+*{
+  box-sizing: border-box;
+}
