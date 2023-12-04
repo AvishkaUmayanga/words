@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const wordSchema = mongoose.Schema({
     id: Number,
     word: String,
-    meaning: String,
+    wordMeaning: String,
     noun:{
         nounSingular: String,
         nounPlural: String,

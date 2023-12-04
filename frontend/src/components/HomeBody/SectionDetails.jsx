@@ -19,7 +19,7 @@ function SectionDetails({ sectionName, data }) {
       </div>
       <div className='grid grid-cols-2 gap-4'>
         {Object.entries(data).map(([key, value]) =>(
-          <div key={key} className='bg-white w-[135px] h-[90px] rounded-lg flex flex-col p-1 xs:w-[150px] xs:h-[100px]'>
+          <div key={key} className='bg-white w-[135px] h-[90px] rounded-lg flex flex-col p-1 xs:w-[150px] xs:h-[120px]'>
             <div className='flex text-sm'>
               <h3>{key}</h3>
             </div>

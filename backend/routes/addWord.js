@@ -5,7 +5,7 @@ const router = express.Router();
 router.post('/add_word', async (req, res) => {
   try {
     const addWord = req.body;
-
+  
     const existingWord = await wordModel.findOne({ word: addWord.word });
     if (existingWord) {
       return res.status(400).json({ error: 'word already exists' });
